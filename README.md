@@ -6,15 +6,11 @@ It includes:
 - A sample Excel file (`example.xlsx`) for demonstration.
 - Logic to clean up whitespace and preserve leading zeros in numeric fields.
 
----
-
 ## Features
 - Converts Excel files (`.xlsx`) into JSON format.
 - Cleans leading/trailing whitespaces in data.
 - Preserves leading zeros (e.g., `"0001"` stays as `"0001"`).
 - Includes a sample file (`example.xlsx`) for easy testing.
-
----
 
 ## Prerequisites
 - Python 3.8 or higher
@@ -25,7 +21,6 @@ You can install the required libraries using the following command:
 ```sh
 pip install -r requirements.txt
 ```
----
 
 ## Project Structure
 
@@ -45,8 +40,6 @@ excel-to-json/
 │
 └── README.md                # Documentation
 ```
-
----
 
 ## Run with Your Own Excel File
 
