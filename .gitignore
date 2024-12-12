@@ -1,0 +1,27 @@
+# Ignore all files in the data folder
+data/*
+
+# Except for example.xlsx
+!data/example.xlsx
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment folder
+venv/
+.env/
+
+# Ignore data output folders
+output/
+*.json
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor settings
+.vscode/
+.idea/
